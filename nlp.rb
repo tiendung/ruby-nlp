@@ -1,4 +1,4 @@
-require 'measure' 
+require_relative 'measure' 
 require 'rjb'
 
 Rjb::load('stanford-postagger.jar:stanford-ner.jar', ['-Xmx200m'])
